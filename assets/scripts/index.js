@@ -21,14 +21,14 @@ function registroCerrado(){
 }
 
 
-if (window.location.hash) {
+/* if (window.location.hash) {
   window.location.href = "./index.html";
 }
-
+ */
 
 var vid=document.getElementById("videoo");
 vid.innerHTML=`
-<video autoplay loop style="width: 100%;">
+<video autoplay loop muted style="width: 100%;">
 <source src="./assets/images/index/protto.mp4" type="video/mp4">
 </video>
 `;
